@@ -12,4 +12,22 @@ ssh:Secure Shell（安全外壳协定，简称**SSH**）是一种加密的[网�
 
 ## 读论文，[《PRIME+SCOPE》](https://dl.acm.org/doi/pdf/10.1145/3460120.3484816?casa_token=vnnM3Sf82MYAAAAA:F0ZF4Ts2mWTFRtdAoz2UxjH9nAo0RiI2_idRt1BP569L9nA5pdDr_3shhc_UEFHzqliJ-qZ4QQ)。
 
-## 
+* abstract完事了，该introduction了。
+
+## github SSH连接成功
+
+* 出错原因：公钥建的太乱，github上new key后匹配本地的SSH名称时混乱，可能开始的时候执行这条命令**忘记改参数**了。
+
+  ```shell
+  ssh-keygen -t ed25519 -C "your_email@example.com"
+  ```
+
+* 心得：不要着急，也就是花了两天半的时间嘛，两天半玩也就玩过去了不会有任何痛苦，这是在弄正事为什么要瞎着急呢，做就是了
+
+
+# 5月23日
+
+## 《PRIME+SCOPE》个人部分PPT完成
+
+* **第一篇精读论文**
+* 精读了ABSTRACT和INTRODUCTION部分，开始时只看英文原版+查词翻译感觉十分晦涩难懂。无奈只好结合Google机翻对照着看。半天时间硬看一点摘要后对名词有感觉了，又用了两天时间差不多能囫囵点意思出来就把PPT写了。
