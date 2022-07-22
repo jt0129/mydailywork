@@ -1,12 +1,10 @@
-ssh:Secure Shell（安全外壳协定，简称**SSH**）是一种加密的[网路传输协定](https://zh.wikipedia.org/wiki/网络传输协议)，可在不安全的网路中为网路服务提供安全的传输环境[[1\]](https://zh.wikipedia.org/zh-tw/Secure_Shell#cite_note-rfc4251-1)。SSH通过在网路中建立[安全隧道](https://zh.wikipedia.org/w/index.php?title=安全隧道&action=edit&redlink=1)来实现SSH客户端与伺服器之间的连接[[2\]](https://zh.wikipedia.org/zh-tw/Secure_Shell#cite_note-rfc4252-2)。SSH最常见的用途是远端登入系统，人们通常利用SSH来传输[命令列介面](https://zh.wikipedia.org/wiki/命令行界面)和远端执行命令。SSH使用频率最高的场合是[类Unix系统](https://zh.wikipedia.org/wiki/类Unix系统)，但是[Windows](https://zh.wikipedia.org/wiki/Windows)作业系统也能有限度地使用SSH。2015年，微软宣布将在未来的作业系统中提供原生SSH协定支援[[3\]](https://zh.wikipedia.org/zh-tw/Secure_Shell#cite_note-3)，[Windows](https://zh.wikipedia.org/wiki/Windows) 10 1803版本已提供[OpenSSH](https://zh.wikipedia.org/wiki/OpenSSH)工具[[4\]](https://zh.wikipedia.org/zh-tw/Secure_Shell#cite_note-4)。
-
-
-
 # 5月20日
 
 ## 尝试github SSH连接
 
 ## 读论文，[《PRIME+SCOPE》](https://dl.acm.org/doi/pdf/10.1145/3460120.3484816?casa_token=vnnM3Sf82MYAAAAA:F0ZF4Ts2mWTFRtdAoz2UxjH9nAo0RiI2_idRt1BP569L9nA5pdDr_3shhc_UEFHzqliJ-qZ4QQ)。
+
+
 
 # 5月21日
 
@@ -24,6 +22,8 @@ ssh:Secure Shell（安全外壳协定，简称**SSH**）是一种加密的[网�
 
 * 心得：不要着急，也就是花了两天半的时间嘛，两天半玩也就玩过去了不会有任何痛苦，这是在弄正事为什么要瞎着急呢，做就是了
 
+  
+
 
 # 5月23日
 
@@ -31,6 +31,8 @@ ssh:Secure Shell（安全外壳协定，简称**SSH**）是一种加密的[网�
 
 * **第一篇精读论文**
 * 精读了ABSTRACT和INTRODUCTION部分，开始时只看英文原版+查词翻译感觉十分晦涩难懂。无奈只好结合Google机翻对照着看。半天时间硬看一点摘要后对名词有感觉了，又用了两天时间差不多能囫囵点意思出来就把PPT写了。
+
+
 
 # 5月24日
 
@@ -60,6 +62,8 @@ ssh:Secure Shell（安全外壳协定，简称**SSH**）是一种加密的[网�
 
 * 我的3页PPT被主讲人引用了一行
 
+
+
 # 5月25日
 
 ## 复习《云计算》课程
@@ -72,5 +76,150 @@ ssh:Secure Shell（安全外壳协定，简称**SSH**）是一种加密的[网�
 
 * 晚上看了一个小时，发现云计算课上讲的都是系统虚拟机，提供的是完整的系统环境
 
+
+
+
+# 6月20日
+
+## 《神经美学》
+
+
+
+## 《说谎心理学》
+
+* 看微信读书里傅小兰所长的《说谎心理学教程》，看了第一章
+
+## 系统能力大赛直播回放
+
+* 龙芯第二次培训
+
+
+
+# 6月21日
+
+# 神经美学
+
+* 神经美学与哲学
+
+## 系统能力大赛直播回放
+
+* 龙芯第二次培训
+
+# 浏览仓库
+
+* qemu
+* CLFS
+* loongson
+
+
+
+# 7月14日
+
+## 邹旭学长毕业论文
+
+* 龙芯有自己的XQM(x86 to mips based on QEMU)翻译器，将一种指令集架构转为另一种指令级架构并执行
+* 做了针对二进制翻译的随机化测试生成器BTRTG，能验证单指令翻译和优化翻译的正确性
+* 生成了一套轻量高效的测试集
+
+## runenv配置
+
+* linux下未编译出vmlinux
+
+
+
+# 7月15日
+
+## 和张老师讨论进组
+
+* 二进制翻译的基本平台已经完成了，且该组需要较强的架构、系统、编译等能力，难度大，但做通后掌握的东西也很多
+
+* 新型操作系统组刚成立，是接的电科院的项目，如果做完相应的课题可以入职电科院操作系统相关岗位。该组内容跨度大，相对宽泛可自行把握研究程度
+
+  待遇上查了下官方校招，写的是：符合条件的硕博应届生可提供北京市户口；智联招聘上写操作系统职位是2W-3.5W/月
+
+* 少干
+
+  * 硕士毕业回内蒙建龙芯点：张老师认为可行，比如现在东北也在建龙芯的点。可行的前提当然是有能力（此处日后展开分析具体需要什么能力）
+  * 少干博：老师在时间上简单说了下回北京40岁，未提及我是否可读的问题
+  * 内蒙的数据中心：相比二进制翻译，需要的是操作系统能力
+  * 5年后可以社招回龙芯，张老师说欢迎
+
+## 胡老师报告
+
+给计算所暑期班的录播报告，顺便让员工听一遍学习
+
+* 龙芯目前给科学院学生薪资：硕士40W，博士50W（不知给不给户口）
+
+* 一句话总结来龙芯做什么：构建第三套信息技术体系
+
   
+
+# 7月16日
+
+计划：
+
+- [x] 入住
+- [ ] yocto学习总结
+
+
+
+# 7月19日
+
+- [ ] 胡老师：调研苹果、鸿蒙等知名操作系统为什么这么好用，使用率这么高
+
+- [ ] 读一篇论文摘要
+
+- [x] yocto总结
+
+  是一个比Linux更快、更便宜、更高效的嵌入式定制操作系统项目平台
+
+- [ ] 编译loongos
+
+
+
+# 7月20日
+
+- [x] yocto调研
+
+- [x] 备课
+
+  内存刷0：初始化内存。刷：初始化、修改内容
+
+# 7月21日
+
+- [x] Yocto调研
+
+  cross-ng交叉工具链生成器
+
+  嵌入式Linux
+
+- [x] 读一篇论文
+
+  * Liedtke_1993_Improving IPC by kernel design
+
+    Abstract ~ a concrete design
+
+- [ ] 顺序表动态分配代码
+
+  C语言没有引用，可用指针实现相关操作
+
+- [ ] 《体系结构》第一章作业1/2
+
+- [ ] 《understanding and using C Pointers》
+
+  novice:n. 初学者
+
+  pervade:v. 遍布
+
+  notation:n. 符号
+
+  deliberate:adj. 故意的，深思熟虑的
+
+  heap:n. 堆内存
+
+​		A pointer references the allocated memory.
+
+​		什么样的数据类型用什么样的指针引用
+
+
 
